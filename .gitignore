@@ -1,0 +1,7 @@
+build
+src/python_simpleshell.egg-info/
+src/sh/__pycache__/
+tests/__pycache__/*
+lib/
+bin/
+pyvenv.cfg
