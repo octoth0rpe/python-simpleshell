@@ -47,7 +47,11 @@ def mv(file: File | str, destination: str):
 
 def touch(path: str) -> bool:
     """Touch a file or dir, returns True if a file is created."""
-    return True
+    full_path = _resolve_path(path)
+    file_created = not os.path.exists(full_path)
+    with open(full_path, "a"):
+        os.utime(full_path)
+    return file_created
 
 
 def cat(filename: str) -> str:
