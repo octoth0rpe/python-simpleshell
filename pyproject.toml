@@ -1,0 +1,18 @@
+[project]
+name = "python-simpleshell"
+version = "0.0.1"
+authors = [
+  { name="Mike Thorn", email="mthorn.work@gmail.com" },
+]
+description = "Make simple shell operations simple"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/octoth0rpe/python-simpleshell"
+Issues = "https://github.com/octoth0rpe/python-simpleshell"
